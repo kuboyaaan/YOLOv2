@@ -18,6 +18,6 @@
 <p>重みの初期値．</p>
 
 <h4>flow</h4>
-<a href='shibafu3.hatenablog.com/entry/2017/08/24/124826'>YOLOv2を使って自前のデータを学習させて認識させるまで．</a>
+<a href='http://shibafu3.hatenablog.com/entry/2017/08/24/124826'>YOLOv2を使って自前のデータを学習させて認識させるまで．</a>
 <p>./darknet detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23</p>
 <p>./darknet detector test cfg/obj.data cfg/yolo-obj.cfg backup/yolo-obj.backup img/-.jpg</p>
