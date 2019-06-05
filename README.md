@@ -35,4 +35,4 @@
 <p>テストデータの.npzファイルの作成</p>
 <p>学習した重みとテストデータの.npzファイルを指定して実行すると予測を返す．</p>
 
-<a href="https://github.com/allanzelener/YAD2K">YAD2K_github</a>
+<a href="https://github.com/allanzelener/YAD2K">YAD2K github</a>
