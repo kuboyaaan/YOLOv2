@@ -26,8 +26,11 @@
 <h2>YAD2K</h2>
 <a href=""></a>
 <h3>Dataset</h3>
-<p>labels/training.txt:{label、min_y, min_x, max_y, max_x}</p>
+<p>labels/training.txt->{data_path/label、min_y, min_x, max_y, max_x}</p>
 <h4>package_dataset.py</h4>
 <p>training.txtから.npzファイルを作成する．</p>
 <h4>retrain_yolo.py</h4>
 <p>上記で作成した.npzファイルを用いて、モデルを学習する．</p>
+<h4>package_test.py</h4>
+<p>テストデータの.npzファイルの作成</p>
+<h4>学習した重みとテストデータの.npzファイルを指定して実行すると予測を返す．</h4>
