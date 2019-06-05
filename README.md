@@ -6,6 +6,7 @@
 <p>[IMAGE_PATH]:画像フォルダ</p>
 <p>[PRE-DEFINED CLASS FILE]:ラベルの種類を記した.txtファイル<p>
 <h1>YOLOv2</h1>
+<h2>Darknet</h2>
 <h2>予測実行</h2>
 <p>./darknet detect cfg/yolov2.cfg yolo.weights img/mikky.jpg</p>
 <h2>モデルの学習</h2>
@@ -21,3 +22,12 @@
 <a href='http://shibafu3.hatenablog.com/entry/2017/08/24/124826'>YOLOv2を使って自前のデータを学習させて認識させるまで．</a>
 <p>./darknet detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23</p>
 <p>./darknet detector test cfg/obj.data cfg/yolo-obj.cfg backup/yolo-obj.backup img/-.jpg</p>
+
+<h2>YAD2K</h2>
+<a href=""></a>
+<h3>Dataset</h3>
+<p>labels/training.txt:{label、min_y, min_x, max_y, max_x}</p>
+<h4>package_dataset.py</h4>
+<p>training.txtから.npzファイルを作成する．</p>
+<h4>retrain_yolo.py</h4>
+<p>上記で作成した.npzファイルを用いて、モデルを学習する．</p>
