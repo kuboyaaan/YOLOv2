@@ -26,9 +26,10 @@
 <h2>YAD2K</h2>
 <a href=""></a>
 <h3>Dataset</h3>
-<p>labels/training.txt->{data_path/label、min_y, min_x, max_y, max_x}</p>
+<p>{data path/label、min_y, min_x, max_y, max_x}の情報も持つ.txtファイル</p>
+<p>min_y, min_x, max_y, max_x: 領域の位置情報</p>
 <h4>package_dataset.py</h4>
-<p>training.txtから.npzファイルを作成する．</p>
+<p>training.txtから.npzファイルを作成する.</p>
 <h4>retrain_yolo.py</h4>
 <p>上記で作成した.npzファイルを用いて、モデルを学習する．</p>
 <h4>package_test.py</h4>
